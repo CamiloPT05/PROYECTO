@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>iCREAM - Plantilla de Sitio Web de Fresa con crema</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Plantillas HTML Gratis" name="keywords">
+    <meta content="Plantillas HTML Gratis" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        .navbar .logo-espacio {
+            width: 120px;
+            min-width: 120px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            margin-right: 24px;
+        }
+
+        .logo-circular {
+            width: 90px;
+            height: 90px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+
+        .logo-circular-footer {
+            width: 80px;
+            height: 80px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+
+        @media (max-width: 991.98px) {
+            .navbar .logo-espacio {
+                width: 80px;
+                min-width: 80px;
+                margin-right: 8px;
+            }
+
+            .logo-circular {
+                width: 60px;
+                height: 60px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Inicio de la barra superior -->
+    <div class="container-fluid bg-primary py-3 d-none d-md-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-lg-left mb-2 mb-lg-0">
+                    <div class="d-inline-flex align-items-center">
+                        <a class="text-white pr-3" href="">Preguntas Frecuentes</a>
+                        <span class="text-white">|</span>
+                        <a class="text-white px-3" href="">Ayuda</a>
+                        <span class="text-white">|</span>
+                        <a class="text-white pl-3" href="">Soporte</a>
+                    </div>
+                </div>
+                <div class="col-md-6 text-center text-lg-right">
+                    <div class="d-inline-flex align-items-center">
+                        <a class="text-white px-3" href="">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a class="text-white px-3" href="">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a class="text-white px-3" href="">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a class="text-white px-3" href="">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a class="text-white pl-3" href="">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fin de la barra superior -->
+
+
+    <!-- Inicio de la barra de navegación -->
+    <div class="container-fluid position-relative nav-bar p-0">
+        <div class="container-lg position-relative p-0 px-lg-3" style="z-index: 9;">
+            <nav class="navbar navbar-expand-lg bg-white navbar-light shadow p-lg-0">
+                <!-- Espacio para el logo alineado a la izquierda (siempre visible) -->
+                <a href="index.html" class="navbar-brand logo-espacio align-items-center d-flex">
+                    <img src="img/Logo_fresa.jpeg" alt="Fresas Con Cremas Logo" class="logo-circular">
+                </a>
+                <a href="index.html" class="navbar-brand d-block d-lg-none">
+                    <h1 class="m-0 display-4 text-primary"><span class="text-secondary"></span></h1>
+                </a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto py-0">
+                        <a href="index.html" class="nav-item nav-link">Inicio</a>
+                        <a href="Acerca De.html" class="nav-item nav-link active">Acerca De</a>
+                        <a href="Producto.html" class="nav-item nav-link">Producto</a>
+                    </div>
+                    <span class="font-weight-bold text-primary d-none d-lg-block"
+                        style="font-size: 2rem; margin-left:12px;">FCM</span>
+                    <span class="font-weight-bold text-primary d-block d-lg-none w-100 text-center"
+                        style="font-size: 1.2rem;">FCM</span>
+                    <!-- El logo central se elimina para que solo quede el logo a la izquierda en escritorio -->
+                    <div class="navbar-nav mr-auto py-0">
+                        <a href="Servicio.html" class="nav-item nav-link">Servicio</a>
+                        <a href="Galeria.html" class="nav-item nav-link">Galería</a>
+                        <a href="Contacto.html" class="nav-item nav-link">Contacto</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Fin de la barra de navegación -->
+
+
+    <!-- Inicio del Encabezado -->
+    <div class="jumbotron jumbotron-fluid page-header" style="margin-bottom: 90px;">
+        <div class="container text-center py-5">
+            <h1 class="text-white display-3 mt-lg-5">Acerca De</h1>
+            <div class="d-inline-flex align-items-center text-white">
+                <p class="m-0"><a class="text-white" href="">Inicio</a></p>
+                <i class="fa fa-circle px-3"></i>
+                <p class="m-0">Acerca De</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Fin del Encabezado -->
+
+
+    <!-- Inicio de Acerca De -->
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-7">
+                    <h1 class="section-title position-relative text-center mb-5">Helado Tradicional y Delicioso Desde
+                        1950</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 py-5">
+                    <h4 class="font-weight-bold mb-3">Sobre Nosotros</h4>
+                    <h5 class="text-muted mb-3">¡Descubre el auténtico sabor de las fresas con crema!</h5>
+                    <p>En Fresa con crema Sincelejo, somos una tienda dedicada a preparar las mejores fresas con crema
+                        de la ciudad. Desde nuestros inicios, nos hemos enfocado en combinar ingredientes frescos y de
+                        alta calidad para ofrecerte un postre delicioso y tradicional que encanta a todas las
+                        generaciones. Nuestro compromiso es brindarte una experiencia dulce, refrescante y llena de
+                        sabor en cada visita.</p>
+                    <a href="" class="btn btn-secondary mt-2">Saber más</a>
+                </div>
+                <div class="col-lg-4" style="min-height: 400px;">
+                    <div class="position-relative h-100 rounded overflow-hidden">
+                        <img class="position-absolute w-100 h-100" src="img/about.jpg" style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-4 py-5">
+                    <h4 class="font-weight-bold mb-3">Nuestras Características</h4>
+                    <p>Preparamos cada porción con fresas seleccionadas, crema artesanal y un toque especial que nos
+                        distingue. Ven a probar nuestras opciones, desde el clásico hasta combinaciones innovadoras.</p>
+                    <h5 class="text-muted mb-3"><i class="fa fa-check text-secondary mr-3"></i>Ingredientes frescos y
+                        naturales</h5>
+                    <h5 class="text-muted mb-3"><i class="fa fa-check text-secondary mr-3"></i>Recetas tradicionales y
+                        originales</h5>
+                    <h5 class="text-muted mb-3"><i class="fa fa-check text-secondary mr-3"></i>Atención y cálidad
+                        personalizada</h5>
+                    <a href="" class="btn btn-primary mt-2">Saber más</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fin de Acerca De -->
+
+
+    <!-- Inicio del Equipo -->
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h1 class="section-title position-relative mb-5"></h1>
+                </div>
+                <div class="col-lg-6 mb-5 mb-lg-0 pb-5 pb-lg-0"></div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="owl-carousel team-carousel">
+                        <div class="team-item">
+                            <div class="team-img mx-auto">
+                                <img class="rounded-circle w-100 h-100" src="img/team-1.jpg" style="object-fit: cover;">
+                            </div>
+                            <div class="position-relative text-center bg-light rounded px-4 py-5"
+                                style="margin-top: -100px;">
+                                <h3 class="font-weight-bold mt-5 mb-3 pt-5">Nombre Completo</h3>
+                                <h6 class="text-uppercase text-muted mb-4">Cargo</h6>
+                                <div class="d-flex justify-content-center pt-1">
+                                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i
+                                            class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i
+                                            class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i
+                                            class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-item">
+                            <div class="team-img mx-auto">
+                                <img class="rounded-circle w-100 h-100" src="img/team-2.jpg" style="object-fit: cover;">
+                            </div>
+                            <div class="position-relative text-center bg-light rounded px-4 py-5"
+                                style="margin-top: -100px;">
+                                <h3 class="font-weight-bold mt-5 mb-3 pt-5">Nombre Completo</h3>
+                                <h6 class="text-uppercase text-muted mb-4">Cargo</h6>
+                                <div class="d-flex justify-content-center pt-1">
+                                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i
+                                            class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i
+                                            class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i
+                                            class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-item">
+                            <div class="team-img mx-auto">
+                                <img class="rounded-circle w-100 h-100" src="img/team-3.jpg" style="object-fit: cover;">
+                            </div>
+                            <div class="position-relative text-center bg-light rounded px-4 py-5"
+                                style="margin-top: -100px;">
+                                <h3 class="font-weight-bold mt-5 mb-3 pt-5">Nombre Completo</h3>
+                                <h6 class="text-uppercase text-muted mb-4">Cargo</h6>
+                                <div class="d-flex justify-content-center pt-1">
+                                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i
+                                            class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i
+                                            class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i
+                                            class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-item">
+                            <div class="team-img mx-auto">
+                                <img class="rounded-circle w-100 h-100" src="img/team-4.jpg" style="object-fit: cover;">
+                            </div>
+                            <div class="position-relative text-center bg-light rounded px-4 py-5"
+                                style="margin-top: -100px;">
+                                <h3 class="font-weight-bold mt-5 mb-3 pt-5">Nombre Completo</h3>
+                                <h6 class="text-uppercase text-muted mb-4">Cargo</h6>
+                                <div class="d-flex justify-content-center pt-1">
+                                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i
+                                            class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i
+                                            class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i
+                                            class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fin del Equipo -->
+
+
+    <!-- Inicio del Pie de Página -->
+    <div class="container-fluid footer bg-light py-5" style="margin-top: 90px;">
+        <div class="container text-center py-5">
+            <div class="row">
+                <div class="col-12 mb-4">
+                    <a href="index.html" class="navbar-brand m-0">
+                        <!-- Cambia aquí el logo del footer a circular si lo deseas -->
+                        <img src="img/Logo_fresa.jpeg" alt="" class="logo-circular-footer">
+                    </a>
+                </div>
+                <!-- ... (resto del footer igual) ... -->
+            </div>
+        </div>
+    </div>
+    <div class="col-12 mb-4">
+        <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-twitter"></i></a>
+        <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
+        <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a class="btn btn-outline-secondary btn-social" href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+    <div class="col-12 mt-2 mb-4">
+        <div class="row">
+            <div class="col-sm-6 text-center text-sm-right border-right mb-3 mb-sm-0">
+                <h5 class="font-weight-bold mb-2">Contáctanos</h5>
+                <p class="mb-2">Colombia,Sincelejo-Sucre.</p>
+                <p class="mb-0">+57 3012311675</p>
+            </div>
+            <div class="col-sm-6 text-center text-sm-left">
+                <h5 class="font-weight-bold mb-2">Horario de Atención</h5>
+                <p class="mb-2">Lun – Sáb, 8AM – 5PM</p>
+                <p class="mb-0">Domingo: Cerrado</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-12">
+        <p class="m-0">&copy; 2025<a href="#"></a>. Todos los derechos reservados. Diseñado por <a
+                href="https://camilo-paredes.github.io/Portafolio/">Camilo Paredes</a></p>
+        </p>
+    </div>
+    </div>
+    </div>
+    </div>
+    <!-- Fin del Pie de Página -->
+
+
+    <!-- Volver Arriba -->
+    <a href="#" class="btn btn-secondary px-2 back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- Librerías de JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Archivo Javascript de Contacto -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Javascript de la Plantilla -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

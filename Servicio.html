@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>iCREAM - Plantilla de Sitio Web de Fresa con crema</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Plantillas HTML Gratis" name="keywords">
+    <meta content="Plantillas HTML Gratis" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        .navbar .logo-espacio {
+            width: 120px;
+            min-width: 120px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            margin-right: 24px;
+        }
+
+        .logo-circular {
+            width: 90px;
+            height: 90px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+
+        .logo-circular-footer {
+            width: 80px;
+            height: 80px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+
+        @media (max-width: 991.98px) {
+            .navbar .logo-espacio {
+                width: 80px;
+                min-width: 80px;
+                margin-right: 8px;
+            }
+
+            .logo-circular {
+                width: 60px;
+                height: 60px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Inicio Barra Superior -->
+    <div class="container-fluid bg-primary py-3 d-none d-md-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-lg-left mb-2 mb-lg-0">
+                    <div class="d-inline-flex align-items-center">
+                        <a class="text-white pr-3" href="">Preguntas Frecuentes</a>
+                        <span class="text-white">|</span>
+                        <a class="text-white px-3" href="">Ayuda</a>
+                        <span class="text-white">|</span>
+                        <a class="text-white pl-3" href="">Soporte</a>
+                    </div>
+                </div>
+                <div class="col-md-6 text-center text-lg-right">
+                    <div class="d-inline-flex align-items-center">
+                        <a class="text-white px-3" href="">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a class="text-white px-3" href="">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a class="text-white px-3" href="">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a class="text-white px-3" href="">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a class="text-white pl-3" href="">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fin Barra Superior -->
+
+
+    <!-- Inicio Navbar -->
+    <div class="container-fluid position-relative nav-bar p-0">
+        <div class="container-lg position-relative p-0 px-lg-3" style="z-index: 9;">
+            <nav class="navbar navbar-expand-lg bg-white navbar-light shadow p-lg-0">
+                <!-- Espacio para el logo alineado a la izquierda (siempre visible) -->
+                <a href="index.html" class="navbar-brand logo-espacio align-items-center d-flex">
+                    <img src="img/Logo_fresa.jpeg" alt="Fresas Con Cremas Logo" class="logo-circular">
+                </a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <!-- Menú izquierdo -->
+                    <div class="navbar-nav ml-0 py-0">
+                        <a href="index.html" class="nav-item nav-link active">Inicio</a>
+                        <a href="Acerca De.html" class="nav-item nav-link">Acerca de</a>
+                        <a href="Producto.html" class="nav-item nav-link">Producto</a>
+                    </div>
+                    <!-- Nombre de la marca (centrado en escritorio, debajo del logo en móvil) -->
+                    <span class="font-weight-bold text-primary d-none d-lg-block"
+                        style="font-size: 2rem; margin-left:12px;">FCM</span>
+                    <span class="font-weight-bold text-primary d-block d-lg-none w-100 text-center"
+                        style="font-size: 1.2rem;">FCM</span>
+                    <!-- Menú derecho -->
+                    <div class="navbar-nav mr-0 py-0">
+                        <a href="Servicio.html" class="nav-item nav-link">Servicio</a>
+                        <a href="Galeria.html" class="nav-item nav-link">Galeria</a>
+                        <a href="Contacto.html" class="nav-link">Contacto</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Fin Navbar -->
+
+
+    <!-- Inicio Encabezado -->
+    <div class="jumbotron jumbotron-fluid page-header" style="margin-bottom: 90px;">
+        <div class="container text-center py-5">
+            <h1 class="text-white display-3 mt-lg-5">Servicio</h1>
+            <div class="d-inline-flex align-items-center text-white">
+                <p class="m-0"><a class="text-white" href="">Inicio</a></p>
+                <i class="fa fa-circle px-3"></i>
+                <p class="m-0">Servicio</p>
+            </div>
+        </div>
+    </div>
+    <!-- Fin Encabezado -->
+
+
+    <!-- Inicio Servicios -->
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h1 class="section-title position-relative mb-5">Los Mejores Servicios Que Ofrecemos A Nuestros
+                        Clientes</h1>
+                </div>
+                <div class="col-lg-6 mb-5 mb-lg-0 pb-5 pb-lg-0"></div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="owl-carousel service-carousel">
+                        <div class="service-item">
+                            <div class="service-img mx-auto">
+                                <img class="rounded-circle w-100 h-100 bg-light p-3" src="img/service-1.jpg"
+                                    style="object-fit: cover;">
+                            </div>
+                            <div class="position-relative text-center bg-light rounded p-4 pb-5"
+                                style="margin-top: -75px;">
+                                <h5 class="font-weight-semi-bold mt-5 mb-3 pt-5">Servicio de calidad</h5>
+                                <p>Una atención completamente diferente.</p>
+                                <a href=""
+                                    class="border-bottom border-secondary text-decoration-none text-secondary">Saber
+                                    Más</a>
+                            </div>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-img mx-auto">
+                                <img class="rounded-circle w-100 h-100 bg-light p-3" src="img/service-2.jpg"
+                                    style="object-fit: cover;">
+                            </div>
+                            <div class="position-relative text-center bg-light rounded p-4 pb-5"
+                                style="margin-top: -75px;">
+                                <h5 class="font-weight-semi-bold mt-5 mb-3 pt-5">Rapidez en nuestros envios.</h5>
+                                <p>Rapidez en nuetros envios.</p>
+                                <a href=""
+                                    class="border-bottom border-secondary text-decoration-none text-secondary">Saber
+                                    Más</a>
+                            </div>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-img mx-auto">
+                                <img class="rounded-circle w-100 h-100 bg-light p-3" src="img/service-3.jpg"
+                                    style="object-fit: cover;">
+                            </div>
+                            <div class="position-relative text-center bg-light rounded p-4 pb-5"
+                                style="margin-top: -75px;">
+                                <h5 class="font-weight-semi-bold mt-5 mb-3 pt-5">Fresas para Celebraciones.</h5>
+                                <p>Fresas para ocasiones especiales</p>
+                                <a href=""
+                                    class="border-bottom border-secondary text-decoration-none text-secondary">Saber
+                                    Más</a>
+                            </div>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-img mx-auto">
+                                <img class="rounded-circle w-100 h-100 bg-light p-3" src="img/service-4.jpg"
+                                    style="object-fit: cover;">
+                            </div>
+                            <div class="position-relative text-center bg-light rounded p-4 pb-5"
+                                style="margin-top: -75px;">
+                                <h5 class="font-weight-semi-bold mt-5 mb-3 pt-5">Entrega a Cualquier Punto de Sincelejo.
+                                </h5>
+                                <p>Envio a cualquier lugar de Sincelejo.</p>
+                                <a href=""
+                                    class="border-bottom border-secondary text-decoration-none text-secondary">Saber
+                                    Más</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fin Servicios -->
+
+
+    <!-- Inicio Testimonios -->
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <h1 class="section-title position-relative text-center mb-5">Lo Que Dicen Nuestros Clientes Sobre
+                        Nuestras fresas con crema</h1>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="owl-carousel testimonial-carousel">
+                        <div class="text-center">
+                            <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                            <h4 class="font-weight-light mb-4">*********</h4>
+                            <img class="img-fluid mx-auto mb-3" src="img/testimonial-1.jpg" alt="">
+                            <h5 class="font-weight-bold m-0">Nombre del Cliente</h5>
+                            <span>Profesión</span>
+                        </div>
+                        <div class="text-center">
+                            <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                            <h4 class="font-weight-light mb-4">*********/h4>
+                                <img class="img-fluid mx-auto mb-3" src="img/testimonial-2.jpg" alt="">
+                                <h5 class="font-weight-bold m-0">Nombre del Cliente</h5>
+                                <span>Profesión</span>
+                        </div>
+                        <div class="text-center">
+                            <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                            <h4 class="font-weight-light mb-4">**********</h4>
+                            <img class="img-fluid mx-auto mb-3" src="img/testimonial-3.jpg" alt="">
+                            <h5 class="font-weight-bold m-0">Nombre del Cliente</h5>
+                            <span>Profesión</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fin Testimonios -->
+
+
+    <!-- Inicio Pie de Página -->
+    <div class="container-fluid footer bg-light py-5" style="margin-top: 90px;">
+        <div class="container text-center py-5">
+            <div class="row">
+                <div class="col-12 mb-4">
+                    <a href="index.html" class="navbar-brand m-0">
+                        <!-- Cambia aquí el logo del footer a circular si lo deseas -->
+                        <img src="img/Logo_fresa.jpeg" alt="" class="logo-circular-footer">
+                    </a>
+                </div>
+                <!-- ... (resto del footer igual) ... -->
+            </div>
+        </div>
+    </div>
+                <div class="col-12 mb-4">
+                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-outline-secondary btn-social" href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="col-12 mt-2 mb-4">
+                    <div class="row">
+                        <div class="col-sm-6 text-center text-sm-right border-right mb-3 mb-sm-0">
+                            <h5 class="font-weight-bold mb-2">Contáctanos</h5>
+                            <p class="mb-2">Colombia,Sincelejo-Sucre.</p>
+                            <p class="mb-0">+57 3012311675</p>
+                        </div>
+                        <div class="col-sm-6 text-center text-sm-left">
+                            <h5 class="font-weight-bold mb-2">Horario de Atención</h5>
+                            <p class="mb-2">Lun – Sáb, 8AM – 5PM</p>
+                            <p class="mb-0">Domingo: Cerrado</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <p class="m-0">&copy; 2025<a href="#"></a>. Todos los derechos reservados. Diseñado por <a
+                            href="https://camilo-paredes.github.io/Portafolio/">Camilo Paredes</a></p>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fin Pie de Página -->
+
+
+    <!-- Volver Arriba -->
+    <a href="#" class="btn btn-secondary px-2 back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- Librerías JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Archivo Javascript de Contacto -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Javascript de la Plantilla -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

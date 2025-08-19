@@ -1,0 +1,11 @@
+ => Nombre de la plantilla : iCREAM - Plantilla de sitio web Fresa con crema sincelejo
+
+=> Enlace de la plantilla : https://htmlcodex.com/ice-cream-shop-website-template
+
+=> Licencia de la plantilla : https://htmlcodex.com/license (o lee el archivo LICENSE.txt)
+
+=> Autor de la plantilla : HTML Codex
+
+=> Sitio web del autor : https://htmlcodex.com
+
+=> Sobre HTML Codex : HTML Codex es uno de los principales creadores y editores de plantillas HTML , páginas de aterrizaje HTML, plantillas de correo electrónico HTML y fragmentos de HTML en el mundo. Lee más en (https://htmlcodex.com/about-us)
